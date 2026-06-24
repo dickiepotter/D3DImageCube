@@ -1,0 +1,13 @@
+<Window x:Class="D3DImageCube.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="D3DImageCube — Direct3D 9 shared into a WPF Image"
+        Width="640" Height="480"
+        Background="#202830">
+    <!--
+        D3DImage is a WPF ImageSource backed by a Direct3D surface. There is no airspace problem:
+        the Direct3D output composites with WPF like any other Image, so it can be scaled, rotated
+        or laid out in the visual tree.
+    -->
+    <Image x:Name="Surface" Stretch="Uniform" RenderOptions.BitmapScalingMode="HighQuality" />
+</Window>

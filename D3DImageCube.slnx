@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/D3DImageCube/D3DImageCube.csproj" />
+  </Folder>
+</Solution>
