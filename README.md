@@ -209,3 +209,7 @@ keeps the rendering short — set a light, set a material per face, lean on the 
 remember that the world transform is `D3DTS_WORLD` (256) and not one of the names Vortice exposes. The
 payoff is a 3D scene you can scale, rotate and layer with the rest of your WPF UI, which is exactly what
 the unfinished `SetBackBuffer` call was always reaching for.
+
+## Licence and disclaimer
+
+This is a personal project by Richard Potter, shared in the hope it's useful. It's free to use under the MIT licence (see [LICENSE](LICENSE)). It's provided as is: I make no promises that it works or suits your purpose, and I take no responsibility for anything that happens from using it. It isn't a product of, or supported by, any company I work for.
